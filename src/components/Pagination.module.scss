@@ -1,0 +1,26 @@
+.pagination {
+  background-color: aliceblue;
+  box-sizing: border-box;
+
+  padding: 5px;
+
+  .pages {
+    margin: 10px;
+  }
+
+  .page {
+    &-item {
+      padding: 15px;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+      border: 1px solid white;
+
+      &-active {
+        background-color: green;
+        color: white;
+      }
+    }
+  }
+
+}
